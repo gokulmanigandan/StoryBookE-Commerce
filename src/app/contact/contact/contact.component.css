@@ -1,0 +1,18 @@
+body{
+    background-color: antiquewhite;
+}
+#first-half ul li{
+    color: white;
+    line-height: 2;
+}
+#first-half ul li i{
+    color: rgb(75, 67, 67);
+}
+@media (max-width:576px) {
+    #first-half{
+        display: none;
+    }
+    #second-half{
+        width: 100%;
+    }
+}

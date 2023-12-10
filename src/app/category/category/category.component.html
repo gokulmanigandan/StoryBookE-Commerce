@@ -1,0 +1,3038 @@
+<!-- slider sec start -->
+<section class="carousel mb-5" style="margin-top: 100px;">
+  <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="../../../assets/images/banner1.jpeg" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="../../../assets/images/banner11.jpeg" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="../../../assets/images/banner2.jpg" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="../../../assets/images/banner5.jpg" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="../../../assets/images/banner7.jpg" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="../../../assets/images/banner6.jpg" alt="" class="d-block w-100">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon btn btn-primary btn-sm rounded-pill"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon btn btn-primary btn-sm rounded-pill"></span>
+      </button>
+    </div>
+</section>
+<!-- slider sec end -->
+
+<!-- mystery sec start -->
+<section class="container">
+  <h1>MTSTERY STORIES</h1>  
+  <div id="sec-1">
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{mysterys[0].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{mysterys[0].name}}</p>
+      <p class="card-text m-0">&#8377; {{mysterys[0].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal1">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{mysterys[0].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{mysterys[0].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>By- {{mysterys[0].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{mysterys[0].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width: 15rem; height: auto; border-color: red;">
+
+    <img src="{{mysterys[1].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{mysterys[1].name}}</p>
+      <p class="card-text m-0">&#8377; {{mysterys[1].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal2">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal2">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{mysterys[1].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{mysterys[1].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>By- {{mysterys[1].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{mysterys[1].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{mysterys[2].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{mysterys[2].name}}</p>
+      <p class="card-text m-0">&#8377; {{mysterys[2].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal3">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal3">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{mysterys[2].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{mysterys[2].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>By- {{mysterys[2].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{mysterys[2].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{mysterys[3].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{mysterys[3].name}}</p>
+      <p class="card-text m-0">&#8377; {{mysterys[3].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal4">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal4">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{mysterys[3].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{mysterys[3].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>By- {{mysterys[3].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{mysterys[3].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{mysterys[4].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{mysterys[4].name}}</p>
+      <p class="card-text m-0">&#8377; {{mysterys[4].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal5">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal5">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{mysterys[4].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{mysterys[4].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{mysterys[4].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{mysterys[4].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{mysterys[5].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{mysterys[5].name}}</p>
+      <p class="card-text m-0">&#8377; {{mysterys[5].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal6">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal6">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{mysterys[5].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{mysterys[5].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{mysterys[5].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{mysterys[5].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{mysterys[6].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{mysterys[6].name}}</p>
+      <p class="card-text m-0">&#8377; {{mysterys[6].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal7">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal7">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{mysterys[6].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{mysterys[6].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{mysterys[6].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{mysterys[6].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{mysterys[7].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{mysterys[7].name}}</p>
+      <p class="card-text m-0">&#8377; {{mysterys[7].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal8">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal8">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{mysterys[7].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{mysterys[7].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{mysterys[7].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{mysterys[7].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{mysterys[8].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{mysterys[8].name}}</p>
+      <p class="card-text m-0">&#8377; {{mysterys[8].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal9">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal9">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{mysterys[8].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{mysterys[8].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{mysterys[8].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{mysterys[8].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{mysterys[9].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{mysterys[9].name}}</p>
+      <p class="card-text m-0">&#8377; {{mysterys[9].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal10">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal10">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{mysterys[9].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{mysterys[9].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{mysterys[9].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{mysterys[9].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{mysterys[10].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{mysterys[10].name}}</p>
+      <p class="card-text m-0">&#8377; {{mysterys[10].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal11">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal11">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{mysterys[10].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{mysterys[10].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{mysterys[10].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{mysterys[10].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{mysterys[11].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{mysterys[11].name}}</p>
+      <p class="card-text m-0">&#8377; {{mysterys[11].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal12">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal12">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{mysterys[11].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{mysterys[11].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{mysterys[11].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{mysterys[11].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+</section>
+<!-- mystery sec end -->
+
+
+<!-- kids sec start -->
+<section class="container">
+  <h1>KIDS STORIES</h1>
+<div id="sec-1">
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{kids[0].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{kids[0].name}}</p>
+      <p class="card-text m-0">&#8377; {{kids[0].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal21">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal21">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{kids[0].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{kids[0].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{kids[0].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{kids[0].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{kids[1].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{kids[1].name}}</p>
+      <p class="card-text m-0">&#8377; {{kids[1].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal22">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal22">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{kids[1].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{kids[1].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{kids[1].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{kids[1].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{kids[2].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{kids[2].name}}</p>
+      <p class="card-text m-0">&#8377; {{kids[2].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal23">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal23">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{kids[2].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{kids[2].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{kids[2].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{kids[2].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{kids[3].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{kids[3].name}}</p>
+      <p class="card-text m-0">&#8377; {{kids[3].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal24">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal24">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{kids[3].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{kids[3].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{kids[3].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{kids[3].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{kids[4].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{kids[4].name}}</p>
+      <p class="card-text m-0">&#8377; {{kids[4].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal25">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal25">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{kids[4].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{kids[4].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{kids[4].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{kids[4].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{kids[5].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{kids[5].name}}</p>
+      <p class="card-text m-0">&#8377; {{kids[5].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal26">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal26">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{kids[5].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{kids[5].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{kids[5].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{kids[5].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{kids[6].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{kids[6].name}}</p>
+      <p class="card-text m-0">&#8377; {{kids[6].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal27">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal27">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{kids[6].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{kids[6].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{kids[6].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{kids[6].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{kids[7].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{kids[7].name}}</p>
+      <p class="card-text m-0">&#8377; {{kids[7].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal28">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal28">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{kids[7].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{kids[7].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{kids[7].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{kids[7].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{kids[8].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{kids[8].name}}</p>
+      <p class="card-text m-0">&#8377; {{kids[8].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal29">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal29">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{kids[8].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{kids[8].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{kids[8].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{kids[8].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{kids[9].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{kids[9].name}}</p>
+      <p class="card-text m-0">&#8377; {{kids[9].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal30">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal30">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{kids[9].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{kids[9].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{kids[9].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{kids[9].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{kids[10].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{kids[10].name}}</p>
+      <p class="card-text m-0">&#8377; {{kids[10].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal31">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal31">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{kids[10].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{kids[10].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{kids[10].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{kids[10].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{kids[11].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{kids[11].name}}</p>
+      <p class="card-text m-0">&#8377; {{kids[11].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal32">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal32">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{kids[11].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{kids[11].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{kids[11].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{kids[11].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+<!-- kids sec end -->
+
+<!-- novel se start -->
+<section class="container">
+  <h1>NOVEL STORIES</h1>
+<div id="sec-1">
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{novels[0].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{novels[0].name}}</p>
+      <p class="card-text m-0">&#8377; {{novels[0].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal41">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal41">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{novels[0].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{novels[0].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{novels[0].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{novels[0].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{novels[1].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{novels[1].name}}</p>
+      <p class="card-text m-0">&#8377; {{novels[1].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal42">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal42">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{novels[1].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{novels[1].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{novels[1].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{novels[1].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{novels[2].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{novels[2].name}}</p>
+      <p class="card-text m-0">&#8377; {{novels[2].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal43">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal43">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{novels[2].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{novels[2].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{novels[2].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{novels[2].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{novels[3].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{novels[3].name}}</p>
+      <p class="card-text m-0">&#8377; {{novels[3].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal44">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal44">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{novels[3].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{novels[3].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{novels[3].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{novels[3].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{novels[4].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{novels[4].name}}</p>
+      <p class="card-text m-0">&#8377; {{novels[4].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal45">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal45">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{novels[4].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{novels[4].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{novels[4].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{novels[4].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{novels[5].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{novels[5].name}}</p>
+      <p class="card-text m-0">&#8377; {{novels[5].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal46">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal46">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{novels[5].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{novels[5].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{novels[5].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{novels[5].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{novels[6].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{novels[6].name}}</p>
+      <p class="card-text m-0">&#8377; {{novels[6].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal47">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal47">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{novels[6].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{novels[6].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{novels[6].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{novels[6].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{novels[7].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{novels[7].name}}</p>
+      <p class="card-text m-0">&#8377; {{novels[7].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal48">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal48">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{novels[7].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{novels[7].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{novels[7].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{novels[7].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{novels[8].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{novels[8].name}}</p>
+      <p class="card-text m-0">&#8377; {{novels[8].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal49">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal49">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{novels[8].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{novels[8].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{novels[8].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{novels[8].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{novels[9].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{novels[9].name}}</p>
+      <p class="card-text m-0">&#8377; {{novels[9].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal50">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal50">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{novels[9].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{novels[9].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{novels[9].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{novels[9].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{novels[10].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{novels[10].name}}</p>
+      <p class="card-text m-0">&#8377; {{novels[10].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal51">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal51">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{novels[10].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{novels[10].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{novels[10].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{novels[10].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{novels[11].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{novels[11].name}}</p>
+      <p class="card-text m-0">&#8377; {{novels[11].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal52">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal52">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{novels[11].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{novels[11].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{novels[11].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{novels[11].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+<!-- novel sec end -->
+
+<!-- religion sec start -->
+<section class="container">
+  <h1>RELIGION STORIES</h1>
+<div id="sec-1">
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{religions[0].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{religions[0].name}}</p>
+      <p class="card-text m-0">&#8377; {{religions[0].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal61">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal61">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{religions[0].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{religions[0].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{religions[0].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{religions[0].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{religions[1].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{religions[1].name}}</p>
+      <p class="card-text m-0">&#8377; {{religions[1].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal62">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal62">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{religions[1].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{religions[1].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{religions[1].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{religions[1].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{religions[2].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{religions[2].name}}</p>
+      <p class="card-text m-0">&#8377; {{religions[2].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal63">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal63">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{religions[2].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{religions[2].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{religions[2].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{religions[2].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{religions[3].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{religions[3].name}}</p>
+      <p class="card-text m-0">&#8377; {{religions[3].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal64">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal64">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{religions[3].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{religions[3].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{religions[3].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{religions[3].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{religions[4].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{religions[4].name}}</p>
+      <p class="card-text m-0">&#8377; {{religions[4].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal65">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal65">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{religions[4].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{religions[4].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{religions[4].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{religions[4].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{religions[5].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{religions[5].name}}</p>
+      <p class="card-text m-0">&#8377; {{religions[5].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal66">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal66">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{religions[5].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{religions[5].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{religions[5].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{religions[5].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{religions[6].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{religions[6].name}}</p>
+      <p class="card-text m-0">&#8377; {{religions[6].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal67">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal67">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{religions[6].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{religions[6].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{religions[6].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{religions[6].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{religions[7].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{religions[7].name}}</p>
+      <p class="card-text m-0">&#8377; {{religions[7].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal68">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal68">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{religions[7].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{religions[7].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{religions[7].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{religions[7].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{religions[8].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{religions[8].name}}</p>
+      <p class="card-text m-0">&#8377; {{religions[8].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal69">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal69">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{religions[8].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{religions[8].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{religions[8].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{religions[8].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{religions[9].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{religions[9].name}}</p>
+      <p class="card-text m-0">&#8377; {{religions[9].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal70">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal70">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{religions[9].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{religions[9].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{religions[9].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{religions[9].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{religions[10].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{religions[10].name}}</p>
+      <p class="card-text m-0">&#8377; {{religions[10].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal71">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal71">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{religions[10].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{religions[10].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{religions[10].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{religions[10].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{religions[11].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{religions[11].name}}</p>
+      <p class="card-text m-0">&#8377; {{religions[11].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal72">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal72">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{religions[11].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{religions[11].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{religions[11].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{religions[11].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+<!-- religion sec end -->
+
+<!-- bio sec start -->
+<section class="container">
+  <h1>BIOGHRAPHY</h1>
+<div id="sec-1">
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{bios[0].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{bios[0].name}}</p>
+      <p class="card-text m-0">&#8377; {{bios[0].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal81">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal81">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{bios[0].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{bios[0].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{bios[0].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{bios[0].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{bios[1].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{bios[1].name}}</p>
+      <p class="card-text m-0">&#8377; {{bios[1].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal82">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal82">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{bios[1].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{bios[1].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{bios[1].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{bios[1].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{bios[2].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{bios[2].name}}</p>
+      <p class="card-text m-0">&#8377; {{bios[2].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal83">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal83">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{bios[2].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{bios[2].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{bios[2].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{bios[2].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{bios[3].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{bios[3].name}}</p>
+      <p class="card-text m-0">&#8377; {{bios[3].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal84">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal84">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{bios[3].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{bios[3].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{bios[3].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{bios[3].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{bios[4].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{bios[4].name}}</p>
+      <p class="card-text m-0">&#8377; {{bios[4].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal85">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal85">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{bios[4].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{bios[4].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{bios[4].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{bios[4].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{bios[5].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{bios[5].name}}</p>
+      <p class="card-text m-0">&#8377; {{bios[5].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal86">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal86">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{bios[5].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{bios[5].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{bios[5].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{bios[5].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{bios[6].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{bios[6].name}}</p>
+      <p class="card-text m-0">&#8377; {{bios[6].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal87">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal87">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{bios[6].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{bios[6].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{bios[6].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{bios[6].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{bios[7].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{bios[7].name}}</p>
+      <p class="card-text m-0">&#8377; {{bios[7].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal88">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal88">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{bios[7].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{bios[7].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{bios[7].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{bios[7].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{bios[8].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{bios[8].name}}</p>
+      <p class="card-text m-0">&#8377; {{bios[8].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal89">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal89">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{bios[8].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{bios[8].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{bios[8].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{bios[8].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{bios[9].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{bios[9].name}}</p>
+      <p class="card-text m-0">&#8377; {{bios[9].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal90">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal90">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{bios[9].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{bios[9].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{bios[9].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{bios[9].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{bios[10].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{bios[10].name}}</p>
+      <p class="card-text m-0">&#8377; {{bios[10].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal91">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal91">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{bios[10].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{bios[10].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{bios[10].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{bios[10].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card mt-2 mb-3" style="width:  15rem; height: auto; border-color: red;">
+
+    <img src="{{bios[11].img}}" class="card-img-top mx-auto mt-2" alt="" style="width: 150px; height: 200px;">
+    <div class="card-body">
+      <p class="card-title text-center">{{bios[11].name}}</p>
+      <p class="card-text m-0">&#8377; {{bios[11].rate}}.00</p>
+      <p class="card-text m-0">Storymart.in</p>
+      <div class="d-grid"><button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#myModal92">View Details</button></div>      
+    </div>
+
+    <div class="modal" id="myModal92">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">
+                <img src="{{bios[11].img}}" alt="" style="width: 200px; height: auto;">
+                <button class="btn btn-info mt-2">Buy Now</button>
+                <button class="btn btn-info ms-4 mt-2">Add Cart</button>
+              </div>
+              <div class="col-8">
+                <h5>{{bios[11].name}}
+                  <button type="button" class="btn btn-sm btn-close float-end" data-bs-dismiss="modal"></button>
+                </h5>
+                <h5>{{bios[11].author}}</h5>
+                <p>
+                  <span class="badge bg-success" style="font-weight: 900;">5 <i class="fa-solid fa-star"></i></span>  | Write your review
+                </p>
+                <hr>
+                <p>&#8377; {{bios[11].rate}}.00</p>
+                <p>International Edition</p>
+                <p>Ships Within 14-16 Business Days</p>
+                <p>Free Shipping In India And Low Cast Worldwide</p>
+                <button type="button" class="btn btn-sm btn-primary">
+                  Like <span class="badge bg-primary"><i class="fa-solid fa-thumbs-up"></i></span>
+                </button>
+                <span class="ms-3" style="font-size: 14px;">Sign Up to see what your friends like</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+<!-- bio sec end -->
+
+
+
+<!-- <br>
+<h1>example</h1>
+<div id="sec-1">
+  <div *ngFor="let m of mysterys">
+    <div class="card" style="width: 15rem;">
+      <img src="{{m.img}}" class="card-img-top" style="width: 150px; height: auto;"/>
+      <div class="card-body">
+        <p class="card-title">{{m.name}}</p>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Buy</button>
+
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="{{m.img}}" alt="" style="width: 150px; height: auto;">
+              </div>
+            </div>
+          </div>
+        </div>
+          
+            
+      </div>
+    </div>
+</div>
+</div>
+
+<div *ngFor="let n of names">
+  <img src="{{n}}" alt="">
+</div> -->

@@ -1,0 +1,85 @@
+<!-- navbar section start -->
+<nav class="navbar navbar-expand-sm bg-dark fixed-top">
+  <div class="container-fluid">
+    <a href="#" class="navbar-brand" style="font-weight: bolder; color: #EF7C8E;">STORY<span style="color: #B6E2D3;">MART</span></a>
+
+    <div class="float-end">
+
+    
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsiblenavbar" type="button">
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars mt-2 text-white"></i></span>
+      </button>
+        <div class="collapse navbar-collapse" id="collapsiblenavbar">
+          <ul class="navbar-nav" id="header">
+            <li class="nav-item">
+              <a routerLink="home" id="demo" class="nav-link me-3" style="font-weight: 600; color: #EF7C8E;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a routerLink="category" routerLinkActive="active" class="nav-link me-2" style="font-weight: 600; color: #EF7C8E;">Category</a>
+            </li>
+            <li class="nav-item">
+              <a routerLink="about" routerLinkActive="active" class="nav-link me-2" style="font-weight: 600; color: #EF7C8E;">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a routerLink="contact" routerLinkActive="active" class="nav-link me-3" style="font-weight: 600; color: #EF7C8E;">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a routerLink="cart" routerLinkActive="active" class="nav-link me-3" style="font-weight: 600; color: #EF7C8E;"><i class="fa-solid fa-cart-shopping me-2"></i>Cart</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+</nav>
+<!-- navbar section ends -->
+
+<!-- body section starts -->
+<router-outlet></router-outlet>
+<!-- body section ends -->
+
+<!-- footer section start -->
+<section class="bg-dark text-white p-4">
+ <div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <ul>
+        <li style="list-style-type: none; font-weight: bold; color: red;">About Us</li>
+        <li style="list-style-type: none;" class="mt-3">Bookshop.org works to connect readers with independent booksellers all over the world. Every purchase on the site financially supports independent bookstores.</li>
+        <li style="list-style-type: none;" class="d-flex justify-content-around mt-2">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-3">
+      <ul>
+        <li style="list-style-type: none; font-weight: bold; color: red;">Contact Us</li>
+        <li style="list-style-type: none;" class="mt-4"><i class="fa-solid fa-phone"></i> +91 9876543210</li>
+        <li style="list-style-type: none;" class="mt-4"><i class="fa-regular fa-envelope"></i> xyz@gmail.com</li>
+        <li style="list-style-type: none;" class="mt-4"><i class="fa-solid fa-location-dot"></i> 007,Irandadi,TamilNadu</li>
+      </ul>
+    </div>
+    <div class="col-sm-3">
+      <ul>
+        <li style="list-style-type: none; font-weight: bold; color: red;">Our Services</li>
+        <li style="list-style-type: none;" class="mt-3">Home</li>
+        <li style="list-style-type: none;" class="mt-3">Categories</li>
+        <li style="list-style-type: none;" class="mt-3">About Us</li>
+        <li style="list-style-type: none;" class="mt-3">Contact Us</li>
+      </ul>
+    </div>
+    <div class="col-sm-3">
+      <ul>
+        <li style="list-style-type: none; font-weight: bold; color: red;">Quick Link</li>
+        <li style="list-style-type: none;" class="mt-3">Knowledge Base</li>
+        <li style="list-style-type: none;" class="mt-3">Hire & Expert</li>
+        <li style="list-style-type: none;" class="mt-3">FAQ</li>
+        <li style="list-style-type: none;" class="mt-3">Contact</li>
+      </ul>
+    </div>
+  </div>
+ </div>
+</section>
+<!-- footer section ends -->

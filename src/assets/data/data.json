@@ -1,0 +1,447 @@
+[
+    {
+        "categoryId" : 1,
+        "name" : "Death Comes To Call",
+        "author" : "A.D.Clare Chase",
+        "img" : "assets/images/mb1.jpg",
+        "rate" : 775.00
+    },
+    {
+        "categoryId" : 1,
+        "name" : "Murder In A Country Garden",
+        "author" : "N.Betty Rowlards",
+        "img" : "assets/images/mb2.jpg",
+        "rate" : 435.00
+    },
+    {
+        "categoryId" : 1,
+        "name" : "An English Murder",
+        "author" : "V.Cyril Hare",
+        "img" : "assets/images/mb3.webp",
+        "rate" : 768.00
+    },
+    {
+        "categoryId" : 1,
+        "name" : "Tales Of Mystery And Horror",
+        "author" : "K.Edger Allen Poe",
+        "img" : "assets/images/mb4.jpg",
+        "rate" : 908.00
+    },
+    {
+        "categoryId" : 1,
+        "name" : "Iratha Suvadu",
+        "author" : "P.D.Sammy",
+        "img" : "assets/images/mb7.webp",
+        "rate" : 234.00
+    },
+    {
+        "categoryId" : 1,
+        "name" : "Marma Savi",
+        "author" : "M.Chandra Mohan",
+        "img" : "assets/images/mb8.webp",
+        "rate" : 655.00
+    },
+    {
+        "categoryId" : 1,
+        "name" : "Chicago Secret",
+        "author" : "K.Rakesh Kumar",
+        "img" : "assets/images/mb9.jpg",
+        "rate" : 999.00
+    },
+    {
+        "categoryId" : 1,
+        "name" : "Kollai Pona Idhayam",
+        "author" : "S.Tanganatheshwaran",
+        "img" : "assets/images/mb10.jpg",
+        "rate" : 576.00
+    },
+    {
+        "categoryId" : 1,
+        "name" : "Kalaivom Vaa",
+        "author" : "M.Maayan",
+        "img" : "assets/images/mb11.webp",
+        "rate" : 990.00
+    },
+    {
+        "categoryId" : 1,
+        "name" : "Kalnenjan",
+        "author" : "A.Siranjeevi",
+        "img" : "assets/images/mb12.jpg",
+        "rate" : 800.00
+    },
+    {
+        "categoryId" : 1,
+        "name" : "Fatal Shadow",
+        "author" : "N.Lanyon",
+        "img" : "assets/images/mb5.jpg",
+        "rate" : 450.00
+    },
+    {
+        "categoryId" : 1,
+        "name" : "Murder Of Roger Ackroyo",
+        "author" : "Y.Louise Pennay",
+        "img" : "assets/images/mb6.jpg",
+        "rate" : 545.00
+    },
+
+
+
+
+
+
+    {
+        "categoryId" : 2,
+        "name" : "Nethi Kadhaigal",
+        "author" : "M.Mohan",
+        "img": "assets/images/kb1.jpg",
+        "rate" : 465.00
+    },
+    {
+        "categoryId" : 2,
+        "name" : "Thenaliraman Kadhaigal",
+        "author" : "A.Thenali",
+        "img": "assets/images/kb2.webp",
+        "rate" : 786.00
+    },
+    {
+        "categoryId" : 2,
+        "name" : "Narikuttiyum Singamum",
+        "author" : "M.Gokul",
+        "img": "assets/images/kb3.webp",
+        "rate" : 345.00
+    },    
+    {
+        "categoryId" : 2,
+        "name" : "Kurangu",
+        "author" : "M.Kannan",
+        "img": "assets/images/kb5.png",
+        "rate" : 545.00
+    },
+    {
+        "categoryId" : 2,
+        "name" : "The Hike",
+        "author" : "T.Flbers",
+        "img": "assets/images/kb7.avif",
+        "rate" : 980.00
+    },
+    {
+        "categoryId" : 2,
+        "name" : "Jungle Book",
+        "author" : "J.Cameron",
+        "img": "assets/images/kb8.webp",
+        "rate" : 657.00
+    },
+    {
+        "categoryId" : 2,
+        "name" : "The Cat In The Haat",
+        "author" : "D.Seuss",
+        "img": "assets/images/kb9.jpg",
+        "rate" : 450.00
+    },
+    {
+        "categoryId" : 2,
+        "name" : "The Monkey",
+        "author" : "T.Tom",
+        "img": "assets/images/kb10.jpg",
+        "rate" : 499.00
+    },
+    {
+        "categoryId" : 2,
+        "name" : "Monkey Puzzle",
+        "author" : "T.David",
+        "img": "assets/images/kb11.webp",
+        "rate" : 990.00
+    },
+    {
+        "categoryId" : 2,
+        "name" : "I Found A Frog",
+        "author" : "L.Lorem",
+        "img": "assets/images/kb12.avif",
+        "rate" : 100.00
+    },
+    {
+        "categoryId" : 2,
+        "name" : "Thenaliraman Kadhaigal",
+        "author" : "R.Rajesh",
+        "img": "assets/images/kb2.webp",
+        "rate" : 786.00
+    },
+    {
+        "categoryId" : 2,
+        "name" : "Neela Naari",
+        "author" : "S.Jayamohan",
+        "img": "assets/images/kb6.jpg",
+        "rate" : 455.00
+    },
+
+
+
+
+
+
+    {
+        "categoryId" : 3,
+        "name" : "Parthiban Kanavu",
+        "author" : "K.Kalki",
+        "img" : "assets/images/nb1.jpg",
+        "rate" : 1000.00
+    },
+    {
+        "categoryId" : 3,
+        "name" : "Kalvanin Kadhali",
+        "author" : "K.Kalki",
+        "img" : "assets/images/nb2.webp",
+        "rate" : 990.00
+    },
+    {
+        "categoryId" : 3,
+        "name" : "Thaan Nilavu",
+        "author" : "L.R.V",
+        "img" : "assets/images/nb3.jpg",
+        "rate" : 900.00
+    },
+    {
+        "categoryId" : 3,
+        "name" : "Ponniyin Selvan",
+        "author" : "K.Kalki",
+        "img" : "assets/images/nb4.jpg",
+        "rate" : 800.00
+    },
+    {
+        "categoryId" : 3,
+        "name" : "The Story Of My Life",
+        "author" : "h.Hellan Adams",
+        "img" : "assets/images/nb7.webp",
+        "rate" : 878.00
+    },
+    {
+        "categoryId" : 3,
+        "name" : "The Sun Sisters",
+        "author" : "A.Holle",
+        "img" : "assets/images/nb8.jpg",
+        "rate" : 656.00
+    },
+    {
+        "categoryId" : 3,
+        "name" : "Five Childrens",
+        "author" : "L.Kate Saunders",
+        "img" : "assets/images/nb9.jpg",
+        "rate" : 500.00
+    },
+    {
+        "categoryId" : 3,
+        "name" : "The Dark Road",
+        "author" : "J.Ma Joln",
+        "img" : "assets/images/nb10.webp",
+        "rate" : 455.00
+    },
+    {
+        "categoryId" : 3,
+        "name" : "James And The Gaint Peach",
+        "author" : "R.Roald Dahl",
+        "img" : "assets/images/nb11.jpg",
+        "rate" : 670.00
+    },
+    {
+        "categoryId" : 3,
+        "name" : "Great Expectations",
+        "author" : "C.Charles",
+        "img" : "assets/images/nb12.jpg",
+        "rate" : 800.00
+    },
+    {
+        "categoryId" : 3,
+        "name" : "Thol",
+        "author" : "T.Selvaraj",
+        "img" : "assets/images/nb5.jpg",
+        "rate" : 899.00
+    },
+    {
+        "categoryId" : 3,
+        "name" : "Cheena Mangai",
+        "author" : "C.Muthiya",
+        "img" : "assets/images/nb6.jpg",
+        "rate" : 999.00
+    },
+
+
+
+
+
+
+    {
+        "categoryId" : 4,
+        "name" : "Suriyabhuthiran Karnan",
+        "author" : "K.Kambar",
+        "img" : "assets/images/rb1.jpg",
+        "rate" : 560.00
+    },
+    {
+        "categoryId" : 4,
+        "name" : "Thamizh Magan Raavanan",
+        "author" : "V.Vetriazahagan",
+        "img" : "assets/images/rb2.webp",
+        "rate" : 1000.00
+    },
+    {
+        "categoryId" : 4,
+        "name" : "Sri Krishnan Leelai",
+        "author" : "I.Ganesh",
+        "img" : "assets/images/rb3.jpg",
+        "rate" : 1000.00
+    },
+    {
+        "categoryId" : 4,
+        "name" : "Mahadeva",
+        "author" : "J.Deivamani",
+        "img" : "assets/images/rb4.jpg",
+        "rate" : 600.00
+    },
+    {
+        "categoryId" : 4,
+        "name" : "The Illustrated Bible",
+        "author" : "N.Milo Winted",
+        "img" : "assets/images/rb7.jpg",
+        "rate" : 450.00
+    },
+    {
+        "categoryId" : 4,
+        "name" : "Muhammed",
+        "author" : "K.Keran",
+        "img" : "assets/images/rb8.jpg",
+        "rate" : 500.00
+    },
+    {
+        "categoryId" : 4,
+        "name" : "The Bhudhha",
+        "author" : "G.Varsha Das",
+        "img" : "assets/images/rb9.jpg",
+        "rate" : 995.00
+    },
+    {
+        "categoryId" : 4,
+        "name" : "Mary's Story",
+        "author" : "B.Sarah Jane Bass",
+        "img" : "assets/images/nb10.webp",
+        "rate" : 890.00
+    },
+    {
+        "categoryId" : 4,
+        "name" : "Prine Siddartha",
+        "author" : "J.Janathan",
+        "img" : "assets/images/rb11.jpg",
+        "rate" : 999.00
+    },
+    {
+        "categoryId" : 4,
+        "name" : "Israel",
+        "author" : "D.Ambrose",
+        "img" : "assets/images/rb12.jpg",
+        "rate" : 660.00
+    },
+    {
+        "categoryId" : 4,
+        "name" : "Kuthirai Veeran",
+        "author" : "K.Ayyanar",
+        "img" : "assets/images/rb5.jpeg",
+        "rate" : 870.00
+    },
+    {
+        "categoryId" : 4,
+        "name" : "Thamizh Kadavul Murugan",
+        "author" : "A.Arumugam",
+        "img" : "assets/images/rb6.jpg",
+        "rate" : 780.00
+    },
+
+
+
+
+
+
+
+    {
+        "categoryId" : 5,
+        "name" : "Chasing The Brigand",
+        "author" : "L.Vijay Kumar",
+        "img" : "assets/images/hb1.jpg",
+        "rate" : 450.00
+    },
+    {
+        "categoryId" : 5,
+        "name" : "Maker OF Modern India",
+        "author" : "K.Anbumani",
+        "img" : "assets/images/hb2.jpg",
+        "rate" : 500.00
+    },
+    {
+        "categoryId" : 5,
+        "name" : "Viduthalai Porrata Varallaru",
+        "author" : "M.Jayaraj",
+        "img" : "assets/images/hb3.jpg",
+        "rate" : 560.00
+    },
+    {
+        "categoryId" : 5,
+        "name" : "The Great Freedom Fighter",
+        "author" : "S.Anu Kumar",
+        "img" : "assets/images/hb4.jpg",
+        "rate" : 600.00
+    },
+    {
+        "categoryId" : 5,
+        "name" : "A Revolutionary Life",
+        "author" : "F.Armando Doran",
+        "img" : "assets/images/hb5.jpg",
+        "rate" : 800.00
+    },
+    {
+        "categoryId" : 5,
+        "name" : "Your Are Born To Blossom",
+        "author" : "Q.Arun",
+        "img" : "assets/images/hb6.jpg",
+        "rate" : 780.00
+    },
+    {
+        "categoryId" : 5,
+        "name" : "The Children's Madiba",
+        "author" : "P.Sean Feaser",
+        "img" : "assets/images/hb7.jpg",
+        "rate" : 789.00
+    },
+    {
+        "categoryId" : 5,
+        "name" : "Subramaina Bharathi",
+        "author" : "N.Prema Nandhakumar",
+        "img" : "assets/images/hb8.webp",
+        "rate" : 765.00
+    },
+    {
+        "categoryId" : 5,
+        "name" : "Hitler's Vienna",
+        "author" : "K.Charlie Chaplin",
+        "img" : "assets/images/hb9.jpg",
+        "rate" : 665.00
+    },
+    {
+        "categoryId" : 5,
+        "name" : "The Devil And Karl Marx",
+        "author" : "I.Paul",
+        "img" : "assets/images/hb10.jpg",
+        "rate" : 889.00
+    },
+    {
+        "categoryId" : 5,
+        "name" : "Bhodhi Dharma",
+        "author" : "Z.Vangal Reddy",
+        "img" : "assets/images/hb11.jpg",
+        "rate" : 875.00
+    },
+    {
+        "categoryId" : 5,
+        "name" : "Abraham Lincoin",
+        "author" : "W.Richard",
+        "img" : "assets/images/hb12.jpg",
+        "rate" : 890.00
+    }
+]
