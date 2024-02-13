@@ -14,4 +14,5 @@ export class HomeComponent {
   onSelect(){
     this.router.navigate(['cate'])
   }
+  
 }
